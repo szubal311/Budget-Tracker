@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 
@@ -15,7 +16,7 @@
 <body>
   <div class="wrapper">
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="total"><i class="fas fa-search-dollar"></i>Your total is: $<span id="total">0</span></div>
     </div>
 
     <div class="form">
@@ -25,19 +26,19 @@
       <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
       <p class="error"></p>
     </div>
-
+    <div class="container">
     <div class="transactions">
       <table>
         <thead>
-          <th>Transaction</th>
-          <th>Amount</th>
+          <th>Transaction<i class="fas fa-receipt"></i></th>
+          <th>Amount<i class="fas fa-funnel-dollar"></i></th>
         </thead>
         <tbody id="tbody">
           
         </tbody>
       </table>
     </div>
-    
+  </div>
     <canvas id="myChart"></canvas>
   </div>
 
