@@ -13,4 +13,4 @@ Stackoverflow
 
 ## Screenshots
 
-<img src= "public/assets/Images/budget-tracker-screenshot">
+<img src= "public/assets/Images/budget-tracker-screenshot.jpg">
